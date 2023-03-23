@@ -1,4 +1,8 @@
+import 'package:weather/networkhelper.dart';
+import 'package:weather/location_screen.dart';
+import 'package:weather/location.dart';
 class WeatherModel {
+
   String getWeatherIcon(int condition) {
     if (condition < 300) {
       return '🌩';
